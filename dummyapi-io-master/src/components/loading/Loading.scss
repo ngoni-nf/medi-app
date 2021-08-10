@@ -1,0 +1,18 @@
+@import '../../master.scss';
+
+.loading {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+}
+
+.loading-text {
+  margin-left: 20px !important;
+  color: $white;
+}

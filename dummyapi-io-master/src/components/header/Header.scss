@@ -1,0 +1,38 @@
+@import '../../master.scss';
+
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border: 2px solid $white;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 21px;
+      color: $white;
+      margin-left: 10px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .account {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-right: 10px;
+      margin-left: 40px;
+      color: $white;
+      font-size: 14px;
+    }
+  }
+}

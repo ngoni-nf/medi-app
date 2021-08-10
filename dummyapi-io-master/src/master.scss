@@ -1,0 +1,39 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body,
+#root {
+  background-color: #454dab;
+  background-image: linear-gradient(
+    180deg,
+    #454dab 5%,
+    #ca519d 29%,
+    #f56882 52%,
+    #ffa064 76%,
+    #faf26e 100%
+  );
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid {
+  padding: 10px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.centered {
+  margin-top: 60px !important;
+  min-height: calc(100vh - 140px);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
